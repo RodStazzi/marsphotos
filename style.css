@@ -40,24 +40,24 @@ body{
 }
 
 h1 {
-    font-family: Helvetica, sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: bold;
     font-size: 3rem;
     color: #fff;
 
 }
 h3 {
-    font-family: roboto, serif, sans-serif;
+    font-family: 'Poppins', serif, sans-serif;
     font-weight: lighter;
     color: #fff;
 }
 h4 {
-    font-family: roboto, serif, sans-serif;
+    font-family: 'Poppins', serif, sans-serif;
     color: #fff;
 }
 
 h5 {
-    font-family: roboto, serif, sans-serif;
+    font-family: 'Poppins', serif, sans-serif;
     color: #fff;
 }
 

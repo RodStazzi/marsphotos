@@ -16,7 +16,11 @@
 .grey {
     color: dimgrey;
 }
-
+.contaniner-foot{
+    position:fixed;
+    text-align: center;
+    display: inline-block;
+}
 :root{
     --tenne-tawny: #d65108;
     --tenne-tawny-dark: #b54507;
@@ -40,7 +44,7 @@ body{
 }
 
 h1 {
-    font-family: 'Poppins', sans-serif;
+    font-family: Helvetica, sans-serif;
     font-weight: bold;
     font-size: 3rem;
     color: #fff;
@@ -179,9 +183,10 @@ h5 {
 /*  */
 .notFound{
     grid-template-columns: 1fr!important;
-    color: var(--tenne-tawny);
+    color: #fff;
+
     font-size: 1.8rem;
-    font-weight: 600;
+    font-weight: bold;
     width: 100%;
 }
 

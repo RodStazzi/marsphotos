@@ -4,7 +4,6 @@ let api_key = "iZZgEX5HgpzS4bZUvMwf9yfHsbzqh4J8VtHuJxHo";
 
 // event listeners
 searchBtn.addEventListener('click', getMealList);
-mealList.addEventListener('click', getRoverData);
 
 // get meal list that matches with the ingredients
 function getMealList() {
@@ -22,7 +21,7 @@ function getMealList() {
                     html += `
                     <div class = "mars-item" data-id = "${meal.id}">
                         <div class = "mars-img">
-                            <img src = "${meal.img_src}" class = "zoom" alt = "food">
+                            <img src = "${meal.img_src}" class = "zoom" alt = "No Hay Imagen">
                         </div>
                         <div class = "mars-name">
                             <h5>Cámara: ${meal.camera.full_name}</h5>
@@ -31,15 +30,12 @@ function getMealList() {
                     </div>
                 `;
                 });
-                mealList.classList.remove('notFound');
-            } else {
-                html = "Sorry, we didn't find any meal!";
-                mealList.classList.add('notFound');
-            }
 
+            } 
+            if (data.photos.length == 0) {
+                html = '<h3 style="font-weight: bold;">Lo siento, no tenemos información para ese día!<br> Probablemente la misión sea más corta.<h3>';
+            }
+    
             mealList.innerHTML = html;
         });
 }
-
-
-

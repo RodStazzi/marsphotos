@@ -34,6 +34,7 @@ function getMealList() {
             } 
             if (data.photos.length == 0) {
                 html = '<h3 style="font-weight: bold;">Lo siento, no tenemos información para ese día!<br> Probablemente la misión sea más corta.<h3>';
+                mealList.classList.add('notFound');
             }
     
             mealList.innerHTML = html;

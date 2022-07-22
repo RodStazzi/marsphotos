@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.bg-bord{
+    background-color: #400101;
+}
+
+.icons-section {
+    background-color: #17a2bb;
+}
+
+.grey {
+    color: dimgrey;
+}
+
+:root{
+    --tenne-tawny: #d65108;
+    --tenne-tawny-dark: #b54507;
+    --tenne-tawny-light: #c63;
+    --tenne-tawny-bord: #400101;
+    --tenne-tawny-soft: rgb(223, 154, 120);
+
+}
+
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("https://1.bp.blogspot.com/-ou7Je3OVg6U/WYtxDqjNp_I/AAAAAAAACSQ/fsopS5VtFg4bmlv8hQNfiRYfJqTygCotQCLcBGAs/s2048/Martian%2Blandscape%2Bby%2BAmante%2BLombardi.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-attachment: fixed;
+    background-size: cover;
+    font-weight: 300;
+    font-size: 1.05rem;
+    line-height: 1.6;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+div.row.container{
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    padding: 0px 0px !important;
+    justify-content: center;
+}
+/* .row{
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+} */
+.select2 {
+    width: 100%;
+    min-width: 10ch;
+    max-width: 30ch;
+    height: 5ch;
+    border: 1px solid var(--select-border);
+    padding: 0.25em 0.5em;
+    font-size: 1.25rem;
+    cursor: pointer;
+    line-height: 1.1;
+    background-color: #fff;
+    background-image: linear-gradient(to top, #f9f9f9, #fff 33%);
+    border: 1px solid var(--tenne-tawny-dark);
+    color: var(--tenne-tawny-dark);
+  }
+#select-container{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center
+}
+#roverData{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.card {
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 0 4px 34px -12px rgba(251, 251, 251, 0.98);
+    margin: 2rem 0;
+    background-color: rgba(245, 245, 245, 0.4);
+
+}
+.select-btn {
+    width: 50px;
+    height: 5ch;
+    border: 1px solid var(--select-border);
+    border-radius: 0px 32px 32px 0px;
+    padding: 8px 16px 8px 16px;
+    font-size: 1.25rem;
+    cursor: pointer;
+    line-height: 1.1;
+    border: 1px solid var(--tenne-tawny-dark);
+    color: var(--tenne-tawny-dark);
+    background-color: #fff;
+    background-image: linear-gradient(to top, #f9f9f9, #fff 33%);
+}
+
+select {
+  background-color: transparent;
+  border: none;
+  padding: 0 1em 0 0;
+  margin: 0;
+  width: 100%;
+  font-family: inherit;
+  font-size: inherit;
+  cursor: inherit;
+  line-height: inherit;
+}
+.select {
+  width: 100%;
+  min-width: 10ch;
+  max-width: 30ch;
+  height: 5ch;
+  border: 1px solid var(--select-border);
+  border-radius: 32px 0px 0px 32px;
+  padding: 8px 16px 8px 16px;
+  font-size: 1.25rem;
+  cursor: pointer;
+  line-height: 1.1;
+  background-color: #fff;
+  background-image: linear-gradient(to top, #f9f9f9, #fff 33%);
+  border: 1px solid var(--tenne-tawny-dark);
+  color: var(--tenne-tawny-dark);
+}
+.modal-title{
+    color: #400101 !important;
+}
+.card img {
+        cursor: pointer;
+}

@@ -135,3 +135,6 @@ select {
 .card img {
         cursor: pointer;
 }
+img{
+    border-radius:10px;
+}

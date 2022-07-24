@@ -91,7 +91,7 @@ console.log(response.rover.cameras)
         </div>
         <div class="col-md-8">
           <div class="card-body p-2">
-            <h5 class="card-title">Curiosity</h5>
+            <h5 class="card-title">${response.rover.name}</h5>
             <p class="card-text"><small>Fecha de aterrizaje: ${response.rover.landing_date}</small></p>
             <p class="card-text"><small>Fecha de lanzamiento: ${response.rover.launch_date}</small></p>
             <p class="card-text"><small>Estado actual: ${response.rover.status}</small></p>

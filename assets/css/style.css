@@ -138,3 +138,12 @@ select {
 img{
     border-radius:10px;
 }
+
+
+.contai-foot {
+    text-align: center;
+}
+
+.img-foot {
+    width: 100px;
+}
